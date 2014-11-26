@@ -17,7 +17,7 @@ $RECYCLE.BIN/
 # =========================
 # Operating System Files
 # =========================
-
+/Content/*
 /Binaries
 /DerivedDataCache
 /Intermediate
@@ -25,6 +25,17 @@ $RECYCLE.BIN/
 **/Other
 # OSX
 # =========================
+
+# =========================
+# De-ignore MainProject
+# =========================
+
+!/Content/MainProject
+
+!/Content/MainProject/*
+
+#
+#==========================
 
 .DS_Store
 .AppleDouble
