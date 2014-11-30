@@ -2,5 +2,12 @@
 	"FileVersion": 3,
 	"EngineAssociation": "4.5",
 	"Category": "",
-	"Description": ""
+	"Description": "",
+	"Modules": [
+		{
+			"Name": "CDivision",
+			"Type": "Runtime",
+			"LoadingPhase": "Default"
+		}
+	]
 }
